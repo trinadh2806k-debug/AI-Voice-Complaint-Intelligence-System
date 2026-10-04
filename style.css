@@ -1,0 +1,111 @@
+body{
+  background:#f4f7fb;
+  font-family:Arial,Helvetica,sans-serif;
+}
+
+.main-nav{
+  background:#111827;
+}
+
+.navbar-brand{
+  font-weight:bold;
+}
+
+.navbar-brand i{
+  color:#60a5fa;
+}
+
+.nav-btn{
+  background:#1f2937;
+  color:white;
+  margin-left:8px;
+  border:1px solid #334155;
+}
+
+.nav-btn:hover{
+  background:#2563eb;
+  color:white;
+}
+
+.hero-card{
+  background:linear-gradient(135deg,#2563eb,#7c3aed);
+  color:white;
+  padding:60px 25px;
+  border-radius:25px;
+  box-shadow:0 20px 50px rgba(0,0,0,.15);
+}
+
+.feature-card{
+  background:white;
+  border-radius:18px;
+  padding:30px;
+  text-align:center;
+  box-shadow:0 10px 30px rgba(0,0,0,.08);
+  height:100%;
+}
+
+.feature-card i{
+  font-size:40px;
+  color:#2563eb;
+}
+
+.form-card,
+.table-card,
+.chart-card{
+  background:white;
+  border-radius:18px;
+  padding:30px;
+  box-shadow:0 10px 30px rgba(0,0,0,.08);
+}
+
+.success-card{
+  background:white;
+  border-radius:20px;
+  padding:50px 25px;
+  text-align:center;
+  box-shadow:0 10px 30px rgba(0,0,0,.08);
+}
+
+.success-icon{
+  font-size:70px;
+  color:#22c55e;
+}
+
+.complaint-id{
+  color:#2563eb;
+  font-weight:bold;
+}
+
+.stat-card{
+  background:white;
+  border-radius:18px;
+  padding:25px;
+  box-shadow:0 10px 30px rgba(0,0,0,.08);
+}
+
+.stat-card span{
+  color:#64748b;
+}
+
+.stat-card h2{
+  font-weight:bold;
+  margin:0;
+}
+
+.stat-card.danger{
+  border-left:6px solid #ef4444;
+}
+
+.stat-card.warning{
+  border-left:6px solid #f59e0b;
+}
+
+.stat-card.success{
+  border-left:6px solid #22c55e;
+}
+
+.footer{
+  text-align:center;
+  padding:30px;
+  color:#64748b;
+}
